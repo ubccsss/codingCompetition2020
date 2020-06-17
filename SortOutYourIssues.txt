@@ -1,9 +1,6 @@
-Input: array of strings
-Output: array of strings
-
 You have an array of data entries. Each data entry is a space delimited string of words.
 
-For each data entry, the first word in each data entry is an alphanumeric index. Then, either:
+For each data entry, the first word in each data entry is an alphanumeric index. No index is the same. Then, either:
 
 1) Each word after the index will consist only of lowercase letters (a-z), OR
 2) Each word after the index will consist only of digits (0-9).
@@ -18,6 +15,15 @@ Constraints:
 3 <= entries[i].length <= 100
 Every entries[i] is guaranteed to have an index and a word after the index.
 
-Examples:
+Input: array of strings
+Output: array of strings
+
+Example1:
 Input: ["dig1 8 2 7 5","let1 art can","dig2 3 6","let2 own kit dung","let3 art zero"]
 Output: ["let1 art can","let3 art zero","let2 own kit dung","dig1 8 2 7 5","dig2 3 6"]
+
+Example2:
+Input: ["month4 1 0 7","meow2 hello one","meow3 2","lemming1 hello one"]
+Output: ["lemming1 hello one","meow2 hello one","month4 1 0 7","meow3 2"]
+=================================================
+Description: TODO

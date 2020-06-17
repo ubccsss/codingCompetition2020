@@ -1,0 +1,22 @@
+Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
+
+"Absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
+
+Input: array of integers
+Output: integer
+
+=====================================
+
+Example1:
+Input: [2, -1, 4, 8, 10]
+Output: 25
+
+Example2:
+Input: [-3, -4, -10, -2, -3]
+Output: 22
+
+Example3:
+Input: [-1]
+Output: [1]
+=================================================
+Description: TODO
