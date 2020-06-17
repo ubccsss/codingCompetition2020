@@ -1,0 +1,23 @@
+Input: array of strings
+Output: array of strings
+
+You have an array of data entries. Each data entry is a space delimited string of words.
+
+For each data entry, the first word in each data entry is an alphanumeric index. Then, either:
+
+1) Each word after the index will consist only of lowercase letters (a-z), OR
+2) Each word after the index will consist only of digits (0-9).
+We will call these two varieties of data entries letter-entries and digit-entries.  It is guaranteed that each data entry has at least one word after its index.
+
+Reorder the data entries so that all letter-entries come before any digit-entries.  The letter-entries are ordered lexicographically ignoring index, with the index used in case of ties.  The digit-entries should be put in their original order.
+
+Return the final order of the data entries.
+
+Constraints:
+0 <= entries.length <= 100
+3 <= entries[i].length <= 100
+Every entries[i] is guaranteed to have an index and a word after the index.
+
+Examples:
+Input: ["dig1 8 2 7 5","let1 art can","dig2 3 6","let2 own kit dung","let3 art zero"]
+Output: ["let1 art can","let3 art zero","let2 own kit dung","dig1 8 2 7 5","dig2 3 6"]
