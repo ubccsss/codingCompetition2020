@@ -1,0 +1,29 @@
+Hello fellow maze runners! You are tasked to search the Maze for an escape route. You must return before nightfall. No one has ever survived a night by themselves in the Maze.
+
+The leader of the maze runners, Alby, assigns you as one of the maze runners today. However, you are more brains than brawn, so why not take advantage of that?
+
+All you know is that your maze is a possible 10^6 by 10^6 grid, and you decide the label the coordinates of each position in the maze as [x,y]. You also come across a list of blocked squares where you have to navigate around.
+
+Alby is able to tell you the target square you have to get to, and you are able to figure out where you are right now (source). With each move, you are able to run either North, South, West, or East (4 directions) to an adjacent square in the grid that is not in the list of blocked squares.
+
+Create an algorithm that returns true if and only if it is possible to reach the target square from your source through a sequence of moves.
+
+Constraints:
+0 <= blocked.length <= 200
+blocked[i].length = source.length == target.length == 2
+0 <= x, y, blocked[i][j], source[i][j], target[i][j] < 10^6
+source != target
+
+Input: blocked = array of array of 2 integers, source = array of 2 integers, target = array of 2 integers
+Output: boolean
+
+Example1:
+Input: blocked = [[0,1],[1,1],[2,0],[2,1]], source = [1,0], target = [0,2]
+Output: false
+
+Example2:
+Input: blocked = [0,0], source = [100,100], target = [1789,0]
+Output: true
+
+=======================================
+Description: TODO

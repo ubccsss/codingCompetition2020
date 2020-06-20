@@ -4,7 +4,7 @@ I ALLOW THE FOLLOWING TO BE SHARED:
 - GROUP NAMES
 - CODE
 
-Create the most creative output on CLI. Points will be awarded to the most creative/aesthetically pleasing image/text produced.
+Create the most creative output on CLI. Points will be awarded to the most creative/aesthetically pleasing image/text produced when you run the code.
 
 =================================================
 Description: TODO
