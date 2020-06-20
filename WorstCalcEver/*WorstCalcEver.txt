@@ -1,0 +1,28 @@
+***THIS IS A STARRED QUESTION***
+
+I ALLOW THE FOLLOWING TO BE SHARED:
+- GROUP NAMES
+- CODE
+
+Create a simple calculator that takes in two integers and a special character string. Your goal is to obtain the WORST runtimes possible.
+
+Your calculator MUST output the correct results and your code must be LESS THAN 50 lines of code. Your SHORTEST runtimes will be compared with other teams.
+
+When dividing, you can assume the ceiling of the result will be outputted.
+
+Input: integer, integer, string
+Output: integer
+
+Constraints:
+-10^6 <= input integers <= 10^6
+string is of: "+", "-", "*", "/"
+
+Example1:
+Input: 2,4,"/"
+Output: 1
+
+Example2:
+Input: 100,1,"+"
+Output: 101
+==========================================
+Description: TODO
