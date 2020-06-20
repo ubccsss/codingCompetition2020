@@ -26,4 +26,7 @@ Example2:
 Input: ["month4 1 0 7","meow2 hello one","meow3 2","lemming1 hello one"]
 Output: ["lemming1 hello one","meow2 hello one","month4 1 0 7","meow3 2"]
 =================================================
-Description: TODO
+Description: Split the word delimited by spaces, check if the second argument is a letter or digit. 
+If it is a letter it goes first, otherwise it goes last. If both are not letters, check the index in where they are inserted.
+If both are letters, take all letter entries and compare them (if exhausted, check last index to compare)
+Use scanner, an empty space means EOF
