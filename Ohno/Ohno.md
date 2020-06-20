@@ -34,3 +34,12 @@ Santa asks you to help determine the number of pieces of sausage caught on the c
 
 <b>Out: </b>
 <code>0</code>
+
+Description:
+For each sausage, do the following:
+1. If the sausage is too large, ie. if (2 * sausage radius) is larger than D, the sausage cannot lie completely on the crust. In this case, skip this sausage.
+2. Compute the sausage's distance to the center of the pizza (center to center).
+3. Compute the shortest distance that the sausage can be to the pizza's center while still being completely on the crust (R - D + sausage radius).
+4. Compute the shortest distance that the sausage can be to the pizza's center while still being completely on the crust (R - sausage radius).
+5. Check that the sausage distance from #2 is within the bounds from #3 and #4. If it is, increment the count.
+At the end, return the count.
