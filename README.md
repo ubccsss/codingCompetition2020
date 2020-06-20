@@ -17,7 +17,7 @@ Below are the rules and grading scheme for this competition:
 1. Have yourself/your group leader fork this repo.
 2. Add your group name, members and emails in README.md
 3. Edit the forked repo:
-  - Every question will be given in a .txt file, describe your code here.
+  - Every question will be given in a .txt or .md file, describe your code here.
   - Create a .java, .c, .py, etc. file with the same name as the .txt file, your code goes here.
 4. When finished, create a pull request to this repository.
 
