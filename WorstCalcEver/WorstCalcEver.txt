@@ -25,4 +25,6 @@ Example2:
 Input: 100,1,"+"
 Output: 101
 ==========================================
-Description: TODO
+Description: 
+
+We made a bunch of for loops that had the biggest number imaginable and we nested all of them together.
