@@ -32,3 +32,6 @@ Given the list of toppings (and their quantity) in Mr. Ray's pantry, find the ma
 
 <b>Out: </b>
 <code>3</code>
+
+Description:
+Try every possibility with backtracking, taking the max of choosing the current order and not choosing the current order at each step. Awful runtime but who gets more than 10 orders and 5 toppings anyways
