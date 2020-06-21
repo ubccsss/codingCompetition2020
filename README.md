@@ -1,11 +1,11 @@
 # codingCompetition2020
 
 ## Group name
- -
+ - AAAAAAAAAAAAAAAAA
 
 ## Group members and email
- -
- -
+ - Christopher Hui christophergkhui@gmail.com
+ - Brooke Dai
  -
  -
 
