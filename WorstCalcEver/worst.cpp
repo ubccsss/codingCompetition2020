@@ -4,12 +4,12 @@ using namespace std;
 typedef long long ll;
 int subtract(int a, int b);
 int add(int a, int b) {
-    ll a_l = min(a, b) * 1000000000;
-    ll b_l = max(a, b) * 1000000000;
+    ll a_l = (ll)min(a, b) * 100000000;
+    ll b_l = (ll)max(a, b) * 100000000;
     bool neg = (b_l < 0);
     if (neg) while (b_l++) a_l--;
     else while (b_l--) a_l++;
-    return (int)(a_l/1000000000);
+    return (int)(a_l/100000000);
 }
 int subtract(int a, int b) {
     b *= -1;
@@ -37,20 +37,14 @@ int divide(int a, int b) {
     }
     return neg ? -res : res;
 }
-
 int main() {
     int a, b;
     char op;
     cin >> a >> b >> op;
-    if (op == '+')
-        cout << add(a,b) << endl;
-    else if (op == '-')
-        cout << subtract(a,b) << endl;
-    else if (op == '*')
-        cout << multiply(a,b) << endl;
-    else if (op == '/')
-        cout << divide(a,b) << endl;
-    else
-        cout << "invalid input" << endl;
+    if (op == '+') cout << add(a,b) << endl;
+    else if (op == '-') cout << subtract(a,b) << endl;
+    else if (op == '*') cout << multiply(a,b) << endl;
+    else if (op == '/') cout << divide(a,b) << endl;
+    else cout << "invalid input" << endl;
     return 0;
 }
