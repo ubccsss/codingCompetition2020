@@ -17,4 +17,5 @@ Example3:
 Input: [-1]
 Output: [1]
 =================================================
-Description: TODO
+Description: We loop through the array and add each integer to a variable called sum.
+If the integer is below 0, we multiply it by -1 and then add it to sum and if it is above 0 or above, we simply add it to sum as is.

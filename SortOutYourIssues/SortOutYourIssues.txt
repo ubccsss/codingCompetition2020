@@ -26,4 +26,4 @@ Example2:
 Input: ["month4 1 0 7","meow2 hello one","meow3 2","lemming1 hello one"]
 Output: ["lemming1 hello one","meow2 hello one","month4 1 0 7","meow3 2"]
 =================================================
-Description: TODO
+Description: We would compare each word using string.CharAt(0) and then see which alphanumeric value is smallest. If two words are the same, we would check the next alphanumeric value until there is a difference according to the criteria. We would loop until the smaller word ends and then that would be smaller.

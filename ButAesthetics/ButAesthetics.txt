@@ -7,6 +7,6 @@ I ALLOW THE FOLLOWING TO BE SHARED:
 Create the most creative output on CLI. Points will be awarded to the most creative/aesthetically pleasing image/text produced when you run the code.
 
 =================================================
-Description: 
+Description:
 
-Picture of a PC
+Picture of a PC with our UBC Computer Science God's name on it. Trust the Natural Recursion!

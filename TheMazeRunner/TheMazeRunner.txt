@@ -26,4 +26,4 @@ Input: blocked = [0,0], source = [100,100], target = [1789,0]
 Output: true
 
 =======================================
-Description: TODO
+Description: This problem requires backtracking to go through each square and see if it is blocked or not. The simplest method conceptually is to go try all the possibilities (North Sound East or West) until you reach a list of blocked squares which you will identify using coordinates. You could also try to implement faster solutions by seeing if the destination point is completely surrounded by blocks or the edges of the maze.
