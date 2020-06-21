@@ -26,4 +26,6 @@ Input: blocked = [0,0], source = [100,100], target = [1789,0]
 Output: true
 
 =======================================
-Description: TODO
+Description: Basically I noticed that the blocked.length must be smaller than 200, so the best you can do to block the source from the target
+is to use up all those blocked in order to do so. Either the source and target are within the radius of 200, and you can get to it. If they aren't,
+Either source is blocked off, target is blocked off, or none are blocked off. So long as we check this radius, anything greater than it cannot be blocked.
