@@ -25,4 +25,9 @@ Example2:
 Input: 100,1,"+"
 Output: 101
 ==========================================
-Description: TODO
+Description:
+Let the first number be A, the second number be B.
+Add: Multiply both numbers by 100000000 and move 1 from the larger number to the smaller number until the larger number is 0.
+Subtract: Same as add, but B is multiplied by -1.
+Multiply: Add A to result B times using the add function, then multiply by -1 if needed.
+Divide: Subtract B from A and increment result until A <= 0.

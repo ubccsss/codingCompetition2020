@@ -7,4 +7,5 @@ I ALLOW THE FOLLOWING TO BE SHARED:
 Create the most creative output on CLI. Points will be awarded to the most creative/aesthetically pleasing image/text produced when you run the code.
 
 =================================================
-Description: TODO
+Description: Feed in a string (only letters and spaces) and the program will spit out a sparkly version.
+Made with loops and hardcoding. :^)

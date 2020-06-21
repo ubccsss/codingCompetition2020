@@ -23,3 +23,6 @@ Unfortunately though, the wings only come in boxes of 7, or buckets of 11. Is it
 
 <b>Out: </b>
 <code>No</code>
+
+Description:
+Try to solve the equation 7x + 11y = N. Reorder to be 11y = N - 7x. Start with x=0 and keep incrementing until either 7x > N or there is a solution.
