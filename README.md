@@ -1,11 +1,11 @@
 # codingCompetition2020
 
 ## Group name
- -
+ - Winging It
 
 ## Group members and email
- -
- -
+ - Christopher Hui ???
+ - Brooke Dai brookeydai@gmail.com
  -
  -
 
