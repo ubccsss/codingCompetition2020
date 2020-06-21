@@ -23,3 +23,8 @@ Unfortunately though, the wings only come in boxes of 7, or buckets of 11. Is it
 
 <b>Out: </b>
 <code>No</code>
+
+# Description
+
+A solution always exists for sufficiently large n (by Bezout/some CS 121 stuff).
+For smaller n, perform a knapsack-like DP.

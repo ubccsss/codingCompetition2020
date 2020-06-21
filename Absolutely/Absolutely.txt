@@ -17,4 +17,4 @@ Example3:
 Input: [-1]
 Output: [1]
 =================================================
-Description: TODO
+Description: reads array as single line from stdin.

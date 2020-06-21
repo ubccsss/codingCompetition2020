@@ -26,4 +26,4 @@ Example2:
 Input: ["month4 1 0 7","meow2 hello one","meow3 2","lemming1 hello one"]
 Output: ["lemming1 hello one","meow2 hello one","month4 1 0 7","meow3 2"]
 =================================================
-Description: TODO
+Description: Just follows the instructions. The input is taken one string per line from standard input and is terminated at end-of-file.

@@ -26,4 +26,4 @@ Input: blocked = [0,0], source = [100,100], target = [1789,0]
 Output: true
 
 =======================================
-Description: TODO
+Description: Since there are at most 200 blocked squares, we can run a DFS from the source and target in a small area around them to determine if they are blocked.

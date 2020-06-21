@@ -32,3 +32,7 @@ Given the list of toppings (and their quantity) in Mr. Ray's pantry, find the ma
 
 <b>Out: </b>
 <code>3</code>
+
+# Description
+This problem is reducible to knapsack (if we use only one topping) so we can't hope for a very fast solution.
+My solution runs in time O(min(2^O, prod_{topping} quantity(topping))).

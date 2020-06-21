@@ -25,4 +25,4 @@ Example2:
 Input: 100,1,"+"
 Output: 101
 ==========================================
-Description: TODO
+Description: Calculates the answer and waits 1 hour before outputting it.

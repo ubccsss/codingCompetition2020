@@ -31,3 +31,6 @@ Mr. Ray has baked a humongous stack of pizza for you to deliver, and you are con
 
 <b>Out: </b>
 <code>4 1 3 5 2<br>20</code>
+
+# Description
+Implements the textbook dynamic programming algorithm for the traveling salesman problem. See code comments for more details.

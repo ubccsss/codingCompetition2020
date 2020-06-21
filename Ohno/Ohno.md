@@ -34,3 +34,6 @@ Santa asks you to help determine the number of pieces of sausage caught on the c
 
 <b>Out: </b>
 <code>0</code>
+
+# Description
+A sausage piece at (x, y) with radius r lies on the crust iff the distance from (x, y) to the origin is between D+r and R-r.

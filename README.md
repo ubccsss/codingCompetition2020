@@ -1,10 +1,10 @@
 # codingCompetition2020
 
 ## Group name
- -
+ - i started at 4:30
 
 ## Group members and email
- -
+ - Brandon Zhang (brandonzhang53@gmail.com)
  -
  -
  -
